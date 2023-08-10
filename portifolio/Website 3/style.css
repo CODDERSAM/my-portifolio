@@ -1,0 +1,259 @@
+a*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.main{
+    width: 100%;
+    background: url(./lago.png);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+    
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: uto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 310px;
+    float: right;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family:'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 60px;
+}
+body{
+    background-color: #676767;
+}
+.name{
+background-color: #ffffff;
+height: 1150px;
+width: 800px;
+margin: 20px auto;
+}
+.profile{
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+}
+.topsection{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    
+}
+.p1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 10px;
+}
+.p1 span{
+    color: grey;
+    font-weight: 100px;
+}
+.p2{
+    color: grey;
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.col-div-4{
+    width: 35%;
+    float: left;
+}
+.col-div-8{
+    width: 62%;
+    float: left;
+}
+.line{
+    border-left:2px solid #676767 ;
+    margin-top: 30px;
+    float: left;
+    height: 800px;
+    width: 2%;
+}
+.fa-phone{
+transform: rotate(90deg);
+}
+.head{
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.p3{
+    color: #c7c7c7;
+    margin-top: -5px;
+}
+.fas{
+    color: #151b29;
+    margin-right: 10px;
+}
+.contentbox{
+padding: 20px;
+}
+.li{
+    color: #c7c7c7;
+}
+.p4{
+    color: red;
+    font-weight: 300;
+}
+sup{
+    color: white;
+    border: 1px solid black;
+    border-radius: 40%;
+    background-color:dodgerblue;
+    transition: 2s all linear;
+}
+sup:hover{
+    transition: 2s all linear;
+    background-color:yellowgreen;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color:black;
+    bottom: 0;
+    position: fixed;
+    left:0;
+    right:0;
+}
